@@ -1,12 +1,11 @@
 'use strict';
 
 import gulp from 'gulp';
-import uglify from 'gulp-uglify';
-// import uglify from 'uglify-js';
 import cssminify from 'gulp-minify-css';
 import htmlminify from 'gulp-minify-html';
 import concat from 'gulp-concat';
 import browserSync from 'browser-sync';
+import uglify from 'gulp-uglify-es';
 
 //HTML 파일을 minify
 gulp.task('brominifyhtml', () =>{
